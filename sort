@@ -20,4 +20,4 @@ INSERT INTO EMPLOYEE(empId, name, dept, address, salary, age) VALUES
 (7, 'Light', 'IT', 'Tokyo', 50000, 56),
 (8, 'Meliodis', 'AIDS', 'Bitania', 67000, 39);
 SELECT*FROM EMPLOYEE
-ORDER BY salary;
+ORDER BY salary ASC;
